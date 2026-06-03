@@ -6,7 +6,9 @@
  <title>AtendeLab</title>
 </head>
 <body>
+    <main></main>
  <h1>AtendeLab</h1>
  <p>Sistema de Controle de Atendimentos Acadêmicos.</p>
+    <h2><a href="">AAAA</a></h2>
 </body>
 </html>
