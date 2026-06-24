@@ -1,12 +1,12 @@
 <?php
-require_once __DIR__ . 'app/Controllers/UsuarioController.php';
+require_once __DIR__ . '/app/Controllers/UsuarioController.php';
 
 $_controller = $_GET['controller'] ?? 'home';
 $_action = $_GET['action'] ?? 'index';
 
 if ($_controller === 'usuario')
 {
-    UsuarioController = new UsuarioController();
+    $usuarioController = new UsuarioController();
 
     switch ($_action) {
         case 'listar':
